@@ -1,7 +1,8 @@
+// src/app/profile/page.tsx
 import Navprofile from "@/components/navprofile";
 
-export default function profile() {
-    return(
-        <Navprofile></Navprofile>
-    );
+export default function ProfilePage() {
+  return (
+    <Navprofile />
+  );
 }
