@@ -1,3 +1,12 @@
-git checkout -b thony-dev main
+Follow the Next.js command to create the set up
 
-github desktop bulok
+git checkout -b thony-dev main
+git pull origin
+git checkout origin/dev-doms
+git checkout
+
+// Login Page Next.js
+npm install @clerk/nextjs
+
+react icons (to look for icons)
+npm i react-icons (1 time)
