@@ -10,3 +10,14 @@ npm install @clerk/nextjs
 
 react icons (to look for icons)
 npm i react-icons (1 time)
+
+// navbar with icon
+        <nav className="flex justify-between items-center p-4 bg-blue-500 text-white px-16">
+            <div>
+
+            <Link href="/about" className="hover:underline mr-10">
+            <CgProfile className="inline-block mr-2" />
+            Profile
+            </Link>
+            
+        </nav>
