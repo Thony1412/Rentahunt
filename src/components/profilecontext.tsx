@@ -4,22 +4,15 @@ import React from 'react';
 
 export default function ProfileContext() {
     return (
-        <>
-            <div style={{ display: 'flex', height: '100vh' }}>
-                <div style={{ flex: 1, backgroundColor: 'lightblue' }}>
-                    {/* Content for the first div */}
-                </div>
-                <div className="second-div" style={{ flex: 1, backgroundColor: 'lightgreen' }}>
-                    {/* Content for the second div */}
-                </div>
+        <div className="flex h-screen">
+            <div className="flex-1 bg-red-400 p-4">
+                <h2>Get to know me</h2>
+                <h2>Your Rentereer link</h2>
+                
             </div>
-            <style jsx>{`
-                @media (max-width: 1200px) {
-                    .second-div {
-                        display: none;
-                    }
-                }
-            `}</style>
-        </>
+            <div className="flex-1 bg-green-500 p-4 hidden xl:block">
+                {/* Content for the second div */}
+            </div>
+        </div>
     );
 }

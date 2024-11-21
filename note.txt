@@ -21,3 +21,10 @@ npm i react-icons (1 time)
             </Link>
             
         </nav>
+
+//Responsiveness Size
+sm: Small screens (≥ 640px)
+md: Medium screens (≥ 768px)
+lg: Large screens (≥ 1024px)
+xl: Extra Large screens (≥ 1280px)
+2xl: Double Extra Large screens (≥ 1536px)
